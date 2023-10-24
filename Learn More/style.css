@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 30px;
+    position: fixed;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-content{
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+a,button{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li a{
+    color: white;
+    transition: 0.3s
+}
+
+nav li a:hover{
+    background-color: rgba(202, 35, 35, 0.329);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+/* Section 1 */
+#Section1{
+    background: url(../Asset/The_station_pictured_from_the_SpaceX_Crew_Dragon_5_\(cropped\).jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.section-container{
+    padding-left: 530px;
+    padding-right: 500px;
+    padding-bottom: 150px;
+}
+
+.section-content p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    word-spacing: 1.5px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    padding-bottom: 350px;
+    font-size: 20px;
+}
+
+/* Section 2 */
+
+#Section2{
+    background: url(../Asset/space\ dragon.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+.section2-content{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    word-spacing: 1.5px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin-right: 670px;
+    margin-top: 500px;
+}
+
+#Section3{
+    background: url(../Asset/iss\ from\ space.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.section3-content{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    word-spacing: 1.5px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    padding: 30px;
+    margin-left: 1500px;
+    margin-right: 550px;
+    margin-bottom: 200px;
+}
+
+.section3-content a{
+    color: white;
+    transition: 0.3s;
+    background-color: rgba(255, 17, 0, 0.459);
+    border-radius: 25px;
+    padding: 30px;
+    transition: 0.1s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.section3-content a:hover{
+    background-color: rgba(202, 149, 35, 0.575);
+    border-radius: 25px;
+    padding: 40px;
+    transition: 0.25s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+/* Footer */
+#Footer{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+}
+
+.Footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer-content li{
+    margin-top: 50px;
+    display: block;
+    margin-right: 200px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.Footer-content li:hover{
+    background-color: rgba(202, 35, 35, 0.178);
+    border-radius: 25px;
+    padding: 10px;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+
+.information{
+    padding-left: 10px;
+    padding-bottom: 60px;
+}
+
+.information p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
